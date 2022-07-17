@@ -1,9 +1,10 @@
-const App = () => {
+import React from 'react';
+import Main from './components/Main';
+function App() {
 	return (
-		<>
-			<h1>MERN APP</h1>
-		</>
+		<div className='App'>
+			<Main />
+		</div>
 	);
-};
-
+}
 export default App;
